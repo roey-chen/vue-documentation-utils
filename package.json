@@ -1,0 +1,19 @@
+{
+  "name": "bv_doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "document:vue": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vuese/markdown-render": "^2.10.1",
+    "@vuese/parser": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3"
+  }
+}
